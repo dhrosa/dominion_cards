@@ -58,4 +58,12 @@ def parseModifiers(rule_text):
         "buys": buys,
         "coins": coins
     }
-    
+
+
+def parseCost(cost_text):
+    """Parses a card's cost text for coin and potion cost.
+
+    Returns a dictionary in the following form:
+    {"coins": 5, "potions": 1}
+    """
+    pass
