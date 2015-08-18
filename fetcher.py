@@ -38,7 +38,7 @@ for expansion_tag in soup.find_all('h2'):
             expansion=expansion_tag.string.replace("Dominion: ", ""),
             type=columns[TYPE_COLUMN].string,
             cost=columns[COST_COLUMN].string,
-            rules=columns[RULES_COLUMN].string
+            rules="\n".join(columns[RULES_COLUMN].strings)
         ))
         
             
@@ -49,13 +49,12 @@ for card in cards:
     card_soup = BeautifulSoup(urlopen(card_url).read(), "html.parser")
     image_url = BASE_URL + card_soup.table.a.img['src'][2:]
     
-    image_data = urlopen(image_url).read()
     image_basename = image_url.split("/")[-1]
     local_image_path = "images/" + image_basename
 
     with open(local_image_path, "w") as image_file:
         print "Saving %s to %s." % (image_url, local_image_path)
-        image_file.write(image_data)
+        image_file.write(urlopen(image_url).read())
     del card['link']
     card['image'] = local_image_path
     
