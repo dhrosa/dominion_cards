@@ -64,6 +64,14 @@ def parseCost(cost_text):
     """Parses a card's cost text for coin and potion cost.
 
     Returns a dictionary in the following form:
-    {"coins": 5, "potions": 1}
+    {"coins": 5, "uses_potion": True}
     """
+    cost_re = r"\$(\d+)( 1P)?"
+    match = re.match(cost_re, cost_text)
+    return {
+        "coins": int(match.group(1)),
+        "uses_potion": match.group(2) is not None
+    }
+
+def parseTypes(type_text):
     pass
