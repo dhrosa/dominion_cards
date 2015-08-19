@@ -73,5 +73,12 @@ def parseCost(cost_text):
         "uses_potion": match.group(2) is not None
     }
 
+
 def parseTypes(type_text):
-    pass
+    """Returns a list of card types that this Card is a part of.
+
+    Example return for Militia: ["Action", "Attack"]
+    """
+    types = ["Action", "Victory", "Treasure", "Curse",
+             "Attack", "Reaction", "Duration", "Reserve", "Event"]
+    return filter(lambda t: t in type_text, types)
