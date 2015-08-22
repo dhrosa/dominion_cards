@@ -1,0 +1,5346 @@
+[
+  {
+    "name": "Cellar", 
+    "rules": "+1 Action, Discard any number of cards. +1 Card per card discarded.", 
+    "expansion": "Base", 
+    "image": "images/cellar.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Chapel", 
+    "rules": "Trash up to 4 cards from your hand.", 
+    "expansion": "Base", 
+    "image": "images/chapel.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Moat", 
+    "rules": "+2 Cards, When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack.", 
+    "expansion": "Base", 
+    "image": "images/moat.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Chancellor", 
+    "rules": "+2 Coins, You may immediately put your deck into your discard pile.", 
+    "expansion": "Base", 
+    "image": "images/chancellor.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Village", 
+    "rules": "+1 Card, +2 Actions.", 
+    "expansion": "Base", 
+    "image": "images/village.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Woodcutter", 
+    "rules": "+1 Buy, +2 Coins.", 
+    "expansion": "Base", 
+    "image": "images/woodcutter.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Workshop", 
+    "rules": "Gain a card costing up to 4 Coins.", 
+    "expansion": "Base", 
+    "image": "images/workshop.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Bureaucrat", 
+    "rules": "Gain a silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards).", 
+    "expansion": "Base", 
+    "image": "images/bureaucrat.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Feast", 
+    "rules": "Trash this card. Gain a card costing up to 5 Coins.", 
+    "expansion": "Base", 
+    "image": "images/feast.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Gardens", 
+    "rules": "Variable, Worth 1 Victory for every 10 cards in your deck (rounded down).", 
+    "expansion": "Base", 
+    "image": "images/gardens.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Militia", 
+    "rules": "+2 Coins, Each other player discards down to 3 cards in his hand.", 
+    "expansion": "Base", 
+    "image": "images/militia.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Moneylender", 
+    "rules": "Trash a Copper from your hand. If you do, +3 Coins.", 
+    "expansion": "Base", 
+    "image": "images/moneylender.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Remodel", 
+    "rules": "Trash a card from your hand. Gain a card costing up to 2 Coins more than the trashed card.", 
+    "expansion": "Base", 
+    "image": "images/remodel.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Smithy", 
+    "rules": "+3 Cards.", 
+    "expansion": "Base", 
+    "image": "images/smithy.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Spy", 
+    "rules": "+1 Card\n+1 Action\nEach player (including you) reveals the top card of his deck and either discards it or puts it back, your choice.", 
+    "expansion": "Base", 
+    "image": "images/spy.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Thief", 
+    "rules": "Each other player reveals the top 2 cards of his deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards.", 
+    "expansion": "Base", 
+    "image": "images/thief.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Throne Room", 
+    "rules": "Choose an Action card in your hand. Play it twice.", 
+    "expansion": "Base", 
+    "image": "images/throneroom.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Council Room", 
+    "rules": "+4 Cards, +1 Buy, Each other player draws a card.", 
+    "expansion": "Base", 
+    "image": "images/councilroom.jpg", 
+    "modifiers": {
+      "cards": 4, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Festival", 
+    "rules": "+2 Actions, +1 Buy, +2 Coins.", 
+    "expansion": "Base", 
+    "image": "images/festival.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 2, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Laboratory", 
+    "rules": "+2 Cards, +1 Action.", 
+    "expansion": "Base", 
+    "image": "images/laboratory.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Library", 
+    "rules": "Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing.", 
+    "expansion": "Base", 
+    "image": "images/library.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Market", 
+    "rules": "+1 Card, +1 Action, +1 Buy, +1 Coin.", 
+    "expansion": "Base", 
+    "image": "images/market.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mine", 
+    "rules": "Trash a Treasure card from your hand. Gain a Treasure card costing up to 3 Coins more; put it into your hand.", 
+    "expansion": "Base", 
+    "image": "images/mine.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Witch", 
+    "rules": "+2 Cards, Each other player gains a Curse card.", 
+    "expansion": "Base", 
+    "image": "images/witch.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Adventurer", 
+    "rules": "Reveal cards from your deck until you reveal 2 Treasure cards. Put those Treasure cards into your hand and discard the other revealed cards.", 
+    "expansion": "Base", 
+    "image": "images/adventurer.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Courtyard", 
+    "rules": "+3 Card, Put a card from your hand on top of your deck.", 
+    "expansion": "Intrigue", 
+    "image": "images/courtyard.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Pawn", 
+    "rules": "Choose two: +1 Card, +1 Action, +1 Buy, +1 Coin. (The choices must be different.).", 
+    "expansion": "Intrigue", 
+    "image": "images/pawn.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Secret Chamber", 
+    "rules": "Discard any number of cards. +1 Coin per card discarded. - When another player plays an Attack card, you may reveal this from your hand. If you do, +2 cards, then put 2 cards from your hand on top of your deck.", 
+    "expansion": "Intrigue", 
+    "image": "images/secretchamber.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Great Hall", 
+    "rules": "1 Victory, +1 Card, +1 Action.", 
+    "expansion": "Intrigue", 
+    "image": "images/greathall.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Masquerade", 
+    "rules": "+2 Cards\nEach player passes a card from his hand to the left at once. Then you may trash a card from your hand.", 
+    "expansion": "Intrigue", 
+    "image": "images/masquerade.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Shanty Town", 
+    "rules": "+2 Actions, Reveal your hand. If you have no Action cards in hand, +2 Cards.", 
+    "expansion": "Intrigue", 
+    "image": "images/shantytown.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Steward", 
+    "rules": "Choose one: +2 Cards; or +2 Coins; or trash 2 cards from your hand.", 
+    "expansion": "Intrigue", 
+    "image": "images/steward.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Swindler", 
+    "rules": "+2 Coins, Each other player trashes the top card of his deck and gains a card with the same cost that you choose.", 
+    "expansion": "Intrigue", 
+    "image": "images/swindler.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Wishing Well", 
+    "rules": "+1 Card, +1 Action, Name a card, then reveal the top card of your deck. If it is the named card, put it in your hand.", 
+    "expansion": "Intrigue", 
+    "image": "images/wishingwell.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Baron", 
+    "rules": "+1 Buy, You may discard an Estate card. If you do, +4 Coins. Otherwise, gain an Estate card.", 
+    "expansion": "Intrigue", 
+    "image": "images/baron.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Bridge", 
+    "rules": "+1 Buy, +1 Coin. All cards (including cards in players' hands) cost 1 Coin less this turn, but not less than 0 Coins.", 
+    "expansion": "Intrigue", 
+    "image": "images/bridge.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Conspirator", 
+    "rules": "+2 Coins. If you've played 3 or more Actions this turn (counting this): +1 Card, +1 Action.", 
+    "expansion": "Intrigue", 
+    "image": "images/conspirator.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Coppersmith", 
+    "rules": "Copper produces an extra 1 Coin this turn.", 
+    "expansion": "Intrigue", 
+    "image": "images/coppersmith.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ironworks", 
+    "rules": "Gain a card costing up to 4 Coins. If it is an... Action card, +1 Action. Treasure card, +1 Coin. Victory card, +1 Card.", 
+    "expansion": "Intrigue", 
+    "image": "images/ironworks.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mining Village", 
+    "rules": "+1 Card, +2 Actions. You may trash this card immediately. If you do, +2 Coins.", 
+    "expansion": "Intrigue", 
+    "image": "images/miningvillage.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Scout", 
+    "rules": "+1 Action. Reveal the top 4 cards of your deck. Put the revealed Victory cards into your hand. Put the other cards on top of your deck in any order.", 
+    "expansion": "Intrigue", 
+    "image": "images/scout.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Duke", 
+    "rules": "Worth 1 Victory per Duchy you have.", 
+    "expansion": "Intrigue", 
+    "image": "images/duke.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Minion", 
+    "rules": "+1 Action, Choose one: +2 Coins; or discard your hand, +4 Cards, and each other player with at least 5 cards in hand discards his hand and draws 4 cards.", 
+    "expansion": "Intrigue", 
+    "image": "images/minion.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Saboteur", 
+    "rules": "Each other player reveals cards from the top of his deck until revealing one costing 3 Coins or more. He trashes that card and may gain a card costing at most 2 Coins less than it. He discards the other revealed cards.", 
+    "expansion": "Intrigue", 
+    "image": "images/saboteur.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Torturer", 
+    "rules": "+3 Card, Each other player chooses one: he discards 2 cards; or he gains a Curse card, putting it in his hand.", 
+    "expansion": "Intrigue", 
+    "image": "images/torturer.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Trading Post", 
+    "rules": "Trash 2 cards from your hand. If you do, gain a silver card; put it into your hand.", 
+    "expansion": "Intrigue", 
+    "image": "images/tradingpost.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Tribute", 
+    "rules": "The player to your left reveals then discards the top 2 cards of his deck. For each differently named card revealed, if it is an... Action Card, +2 Actions; Treasure Card, +2 Coins; Victory Card, +2 Cards.", 
+    "expansion": "Intrigue", 
+    "image": "images/tribute.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Upgrade", 
+    "rules": "+1 Card, +1 Action, Trash a card from your hand. Gain a card costing exactly 1 Coin more than it.", 
+    "expansion": "Intrigue", 
+    "image": "images/upgrade.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Harem", 
+    "rules": "2 Coins, 2 Victory.", 
+    "expansion": "Intrigue", 
+    "image": "images/harem.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Victory", 
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Nobles", 
+    "rules": "2 Victory, Choose one: +3 Cards, or +2 Actions.", 
+    "expansion": "Intrigue", 
+    "image": "images/nobles.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Embargo", 
+    "rules": "+2 Coins, Trash this card. Put an Embargo token on top of a Supply pile. - When a player buys a card, he gains a Curse card per Embargo token on that pile.", 
+    "expansion": "Seaside", 
+    "image": "images/embargo.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Haven", 
+    "rules": "+1 Card, +1 Action, Set aside a card from your hand face down. At the start of your next turn, put it into your hand.", 
+    "expansion": "Seaside", 
+    "image": "images/haven.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Lighthouse", 
+    "rules": "+1 Action, Now and at the start of your next turn: +1 Coin. - While this is in play, when another player plays an Attack card, it doesn't affect you.", 
+    "expansion": "Seaside", 
+    "image": "images/lighthouse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Native Village", 
+    "rules": "+2 Actions, Choose one: Set aside the top card of your deck face down on your Native Village mat; or put all the cards from your mat into your hand. \n You may look at the cards on your mat at any time; return them to your deck at the end of the game.", 
+    "expansion": "Seaside", 
+    "image": "images/nativevillage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Pearl Diver", 
+    "rules": "+1 Card, +1 Action, Look at the bottom card of your deck. You may put it on top.", 
+    "expansion": "Seaside", 
+    "image": "images/pearldiver.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ambassador", 
+    "rules": "Reveal a card from your hand. Return up to 2 copies of it from your hand to the Supply. Then each other player gains a copy of it.", 
+    "expansion": "Seaside", 
+    "image": "images/ambassador.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Fishing Village", 
+    "rules": "+2 Actions, +1 Coin, At the start of your next turn: +1 Action, +1 Coin.", 
+    "expansion": "Seaside", 
+    "image": "images/fishingvillage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Lookout", 
+    "rules": "+1 Action, Look at the top 3 cards of your deck. Trash one of them. Discard one of them. Put the other one on top of your deck.", 
+    "expansion": "Seaside", 
+    "image": "images/lookout.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Smugglers", 
+    "rules": "Gain a copy of a card costing up to 6 Coins that the player to your right gained on his last turn.", 
+    "expansion": "Seaside", 
+    "image": "images/smugglers.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Warehouse", 
+    "rules": "+3 Card, +1 Action, Discard 3 cards.", 
+    "expansion": "Seaside", 
+    "image": "images/warehouse.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Caravan", 
+    "rules": "+1 Card, +1 Action\nAt the start of your next turn, +1 Card.", 
+    "expansion": "Seaside", 
+    "image": "images/caravan.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Cutpurse", 
+    "rules": "+2 Coins, Each other player discards a Copper card (or reveals a hand with no Copper).", 
+    "expansion": "Seaside", 
+    "image": "images/cutpurse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Island", 
+    "rules": "Set aside this and another card from your hand. Return them to your deck at the end of the game.\n2 VP", 
+    "expansion": "Seaside", 
+    "image": "images/island.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Navigator", 
+    "rules": "+2 Coins, Look at the top 5 cards of your deck. Either discard all of them, or put them back on top of your deck in any order.", 
+    "expansion": "Seaside", 
+    "image": "images/navigator.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Pirate Ship", 
+    "rules": "Choose one: Each other player reveals the top 2 cards of his deck, trashes a revealed Treasure that you choose, discards the rest, and if anyone trashed a Treasure you take a Coin token; or, +1 Coin per Coin token you've taken with Pirate Ships this game.", 
+    "expansion": "Seaside", 
+    "image": "images/pirateship.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Salvager", 
+    "rules": "+1 Buy, Trash a card from your hand. +Coins equal to its cost.", 
+    "expansion": "Seaside", 
+    "image": "images/salvager.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Sea Hag", 
+    "rules": "Each other player discards the top card of his deck, then gains a Curse card, putting it on top of his deck.", 
+    "expansion": "Seaside", 
+    "image": "images/seahag.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Treasure Map", 
+    "rules": "Trash this and another copy of Treasure Map from your hand. If you do trash two Treasure Maps, gain 4 Gold cards, putting them on top of your deck.", 
+    "expansion": "Seaside", 
+    "image": "images/treasuremap.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Bazaar", 
+    "rules": "+1 Card, +2 Actions, +1 Coin.", 
+    "expansion": "Seaside", 
+    "image": "images/bazaar.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Explorer", 
+    "rules": "You may reveal a Province card from your hand. If you do, gain a Gold card, putting it into your hand. Otherwise, gain a Silver card, putting it into your hand.", 
+    "expansion": "Seaside", 
+    "image": "images/explorer.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ghost Ship", 
+    "rules": "+2 Card, Each other player with 4 or more cards in hand puts cards from his hand on top of his deck until he has 3 cards in his hand.", 
+    "expansion": "Seaside", 
+    "image": "images/ghostship.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Merchant Ship", 
+    "rules": "Now and at the start of your next turn: +2 Coins.", 
+    "expansion": "Seaside", 
+    "image": "images/merchantship.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Outpost", 
+    "rules": "You only draw 3 cards (instead of 5) in this turn's Clean-up phase. Take an extra turn after this one. This can't cause you to take more than two consecutive turns.", 
+    "expansion": "Seaside", 
+    "image": "images/outpost.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Tactician", 
+    "rules": "Discard your hand. If you discarded any cards this way, then at the start of your next turn, +5 Cards, +1 Buy, and +1 Action.", 
+    "expansion": "Seaside", 
+    "image": "images/tactician.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Treasury", 
+    "rules": "+1 Card, +1 Action, +1 Coin, When you discard this from play, if you didn't buy a Victory card this turn, you may put this on top of your deck.", 
+    "expansion": "Seaside", 
+    "image": "images/treasury.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Wharf", 
+    "rules": "Now and at the start of your next turn: +2 Cards, +1 Buy.", 
+    "expansion": "Seaside", 
+    "image": "images/wharf.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Transmute", 
+    "rules": "Trash a card from your hand.\nIf it is an...\nAction card, gain a Duchy\nTreasure card, gain a Transmute\nVictory card, gain a Gold", 
+    "expansion": "Alchemy", 
+    "image": "images/transmute.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Vineyard", 
+    "rules": "Worth 1 Victory for every 3 Action cards in your deck (rounded down).", 
+    "expansion": "Alchemy", 
+    "image": "images/vineyard.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": true, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Apothecary", 
+    "rules": "+1 Card\n+1 Action\nReveal the top 4 cards of your deck. Put the revealed Coppers and Potions into your hand. Put the other cards back on top of your deck in any order.", 
+    "expansion": "Alchemy", 
+    "image": "images/apothecary.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Herbalist", 
+    "rules": "+1 Buy\n+1 Coin\nWhen you discard this from play, you may put one of your Treasures from play on top of your deck.", 
+    "expansion": "Alchemy", 
+    "image": "images/herbalist.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Scrying Pool", 
+    "rules": "+1 Action\nEach player (including you) reveals the top card of his deck and either discards it or puts it back, your choice. Then reveal cards from the top of your deck until revealing one that isn't an Action.\nPut all of your revealed cards into your hand.", 
+    "expansion": "Alchemy", 
+    "image": "images/scryingpool.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": true, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "University", 
+    "rules": "+2 Actions\nYou may gain an Action card costing up to 5 Coins.", 
+    "expansion": "Alchemy", 
+    "image": "images/university.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Alchemist", 
+    "rules": "+2 Cards\n+1 Action\nWhen you discard this from play, you may put this on top of your deck if you have a Potion in play.", 
+    "expansion": "Alchemy", 
+    "image": "images/alchemist.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Familiar", 
+    "rules": "+1 Card\n+1 Action\nEach other player gains a curse.", 
+    "expansion": "Alchemy", 
+    "image": "images/familiar.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": true, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Philosopher's Stone", 
+    "rules": "When you play this, count your deck and discard pile.\nWorth 1 Coin per 5 cards total between them (rounded down).", 
+    "expansion": "Alchemy", 
+    "image": "images/philosophersstone.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": true, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Golem", 
+    "rules": "Reveal cards from your deck until you reveal 2 Action cards other than Golem Cards.\nDiscard the other cards, then play the Action cards in either order.", 
+    "expansion": "Alchemy", 
+    "image": "images/golem.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Potion", 
+    "rules": "Worth 1 Potion.", 
+    "expansion": "Alchemy", 
+    "image": "images/potion.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Apprentice", 
+    "rules": "+1 Action\nTrash a card from your hand.\n+1 Card per Coin it costs.\n+2 Cards if it has Potion in its cost.", 
+    "expansion": "Alchemy", 
+    "image": "images/apprentice.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Possession", 
+    "rules": "The player to your left takes an extra turn after this one, in which you can see all cards he can and make all decisions for him.\nAny cards he would gain on that turn, you gain instead; any cards of his that are trashed are set aside and returned to his discard pile at end of turn.", 
+    "expansion": "Alchemy", 
+    "image": "images/possession.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": true, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Loan", 
+    "rules": "Worth 1 Coin.\nWhen you play this, reveal cards from your deck until you reveal a Treasure. Discard it or trash it. Discard the other cards.", 
+    "expansion": "Prosperity", 
+    "image": "images/loan.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Trade Route", 
+    "rules": "+1 Buy\n+1 Coin per token on the Trade Route mat.\nTrash a card from your hand.\nSetup: Put a token on each Victory card Supply pile. When a card is gained from that pile, move the token to the Trade Route mat.", 
+    "expansion": "Prosperity", 
+    "image": "images/traderoute.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Watchtower", 
+    "rules": "Draw until you have 6 cards in hand.\nWhen you gain a card, you may reveal this from your hand. If you do, either trash that card, or put it on top of your deck.", 
+    "expansion": "Prosperity", 
+    "image": "images/watchtower.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Bishop", 
+    "rules": "+1 Coin\n+1 <VP>\nTrash a card from your hand. +<VP> equal to half its cost in Coins, rounded down.\nEach other player may trash a card from his hand.", 
+    "expansion": "Prosperity", 
+    "image": "images/bishop.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Monument", 
+    "rules": "+2 Coins; +1 <VP>", 
+    "expansion": "Prosperity", 
+    "image": "images/monument.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Quarry", 
+    "rules": "Worth 1 Coin.\nWhile this is in play, Action cards cost 2 Coins less, but not less than 0 Coins.", 
+    "expansion": "Prosperity", 
+    "image": "images/quarry.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Talisman", 
+    "rules": "Worth 1 Coin.\nWhile this is in play, when you buy a card costing 4 Coins or less that is not a Victory card, gain a copy of it.", 
+    "expansion": "Prosperity", 
+    "image": "images/talisman.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Worker's Village", 
+    "rules": "+1 Card\n+2 Actions\n+1 Buy", 
+    "expansion": "Prosperity", 
+    "image": "images/workersvillage.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "City", 
+    "rules": "+1 Card\n+2 Actions\nIf there are one or more empty Supply piles, +1 Card. If there are two or more, +1 Coin and +1 Buy.", 
+    "expansion": "Prosperity", 
+    "image": "images/city.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Contraband", 
+    "rules": "Worth 3 Coins.\n+1 Buy\nWhen you play this, the player to your left names a card. You can't buy that card this turn.", 
+    "expansion": "Prosperity", 
+    "image": "images/contraband.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Counting House", 
+    "rules": "Look through your discard pile, reveal any number of Copper cards from it, and put them into your hand.", 
+    "expansion": "Prosperity", 
+    "image": "images/countinghouse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mint", 
+    "rules": "You may reveal a Treasure card from your hand. Gain a copy of it.\nWhen you buy this, trash all Treasures you have in play.", 
+    "expansion": "Prosperity", 
+    "image": "images/mint.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mountebank", 
+    "rules": "+2 Coins\nEach other player may discard a Curse. If he doesn't, he gains a Curse and a Copper.", 
+    "expansion": "Prosperity", 
+    "image": "images/mountebank.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Rabble", 
+    "rules": "+3 Cards\nEach other player reveals the top 3 cards of his deck, discards the revealed Actions and Treasures, and puts the rest back on top in any order he chooses.", 
+    "expansion": "Prosperity", 
+    "image": "images/rabble.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Royal Seal", 
+    "rules": "Worth 2 Coins.\nWhile this is in play, when you gain a card, you may put that card on top of your deck.", 
+    "expansion": "Prosperity", 
+    "image": "images/royalseal.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Vault", 
+    "rules": "+2 Cards\nDiscard any number of cards. +1 Coin per card discarded.\nEach other player may discard 2 cards. If he does, he draws a card.", 
+    "expansion": "Prosperity", 
+    "image": "images/vault.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Venture", 
+    "rules": "Worth 1 Coin.\nWhen you play this, reveal cards from your deck until you reveal a Treasure. Discard the other cards. Play that Treasure.", 
+    "expansion": "Prosperity", 
+    "image": "images/venture.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Goons", 
+    "rules": "+1 Buy\n+2 Coins\nEach other player discards down to 3 cards in hand.\nWhile this is in play, when you buy a card, +1 <VP>.", 
+    "expansion": "Prosperity", 
+    "image": "images/goons.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Grand Market", 
+    "rules": "+1 Card\n+1 Action\n+1 Buy\n+2 Coins\nYou can't buy this if you have any Copper in play.", 
+    "expansion": "Prosperity", 
+    "image": "images/grandmarket.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 2, 
+      "actions": 1, 
+      "buys": 1
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Hoard", 
+    "rules": "Worth 2 Coins.\nWhile this is in play, when you buy a Victory card, gain a Gold.", 
+    "expansion": "Prosperity", 
+    "image": "images/hoard.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Bank", 
+    "rules": "Worth ? Coins.\nWhen you play this, it`s worth 1 Coin per Treasure card you have in play (counting this).", 
+    "expansion": "Prosperity", 
+    "image": "images/bank.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 7, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Expand", 
+    "rules": "Trash a card from your hand. Gain a card costing up to 3 Coins more than the trashed card.", 
+    "expansion": "Prosperity", 
+    "image": "images/expand.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 7, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Forge", 
+    "rules": "Trash any number of cards from your hand. Gain a card with cost exactly equal to the total cost in Coins of the trashed cards.", 
+    "expansion": "Prosperity", 
+    "image": "images/forge.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 7, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "King's Court", 
+    "rules": "You may choose an Action card in your hand. Play it three times.", 
+    "expansion": "Prosperity", 
+    "image": "images/kingscourt.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 7, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Peddler", 
+    "rules": "+1 Card; +1 Action; +1 Coin\nDuring your Buy phase, this costs 2 Coins less per Action card you have in play, but not less than 0 Coins.", 
+    "expansion": "Prosperity", 
+    "image": "images/peddler.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 8, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Platinum", 
+    "rules": "5 Coins.", 
+    "expansion": "Prosperity", 
+    "image": "images/platinum.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 9, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Colony", 
+    "rules": "10 <VP>.", 
+    "expansion": "Prosperity", 
+    "image": "images/colony.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 11, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Bag of Gold", 
+    "rules": "+1 Action\nGain a Gold, putting it on top of your deck.\n(This is not in the Supply.)", 
+    "expansion": "Cornucopia", 
+    "image": "images/bagofgold.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Diadem", 
+    "rules": "Worth 2 Coins.\nWhen you play this, +1 Coin per unused Action you have (Action, not Action card).\n(This is not in the Supply.)", 
+    "expansion": "Cornucopia", 
+    "image": "images/diadem.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Followers", 
+    "rules": "+2 Cards\nGain an Estate. Each other player gains a Curse and discards down to 3 cards in hand.\n(This is not in the Supply.)", 
+    "expansion": "Cornucopia", 
+    "image": "images/followers.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Princess", 
+    "rules": "+1 Buy\nWhile this is in play, cards cost 2 Coins less, but not less than 0 Coins.\n(This is not in the Supply.)", 
+    "expansion": "Cornucopia", 
+    "image": "images/princess.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Trusty Steed", 
+    "rules": "Choose two: +2 Cards; +2 Actions; +2 Coins; gain 4 Silvers and put your deck into your discard pile.\n(The choices must be different)\n(This is not in the Supply.)", 
+    "expansion": "Cornucopia", 
+    "image": "images/trustysteed.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Hamlet", 
+    "rules": "+1 Card\n+1 Action\nYou may discard a card; If you do, +1 Action.\nYou may discard a card; If you do, +1 Buy.", 
+    "expansion": "Cornucopia", 
+    "image": "images/hamlet.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Fortune Teller", 
+    "rules": "+2 Coins\nEach other player reveals cards from the top of his deck until he reveals a Victory or Curse card. He puts it on top and discards the other revealed cards.", 
+    "expansion": "Cornucopia", 
+    "image": "images/fortuneteller.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Menagerie", 
+    "rules": "+1 Action\nReveal your hand.\nIf there are no duplicate cards in it, +3 Cards.\nOtherwise, +1 Card.", 
+    "expansion": "Cornucopia", 
+    "image": "images/menagerie.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Farming Village", 
+    "rules": "+2 Actions\nReveal cards from the top of your deck until you reveal an Action or Treasure card. Put that card into your hand and discard the other cards.", 
+    "expansion": "Cornucopia", 
+    "image": "images/farmingvillage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Horse Traders", 
+    "rules": "+1 Buy\n+3 Coins\nDiscard 2 Cards\nWhen another player plays an Attack card, you may set this aside from your hand. If you do, then at the start of your next turn, +1 Card and return this to your hand.", 
+    "expansion": "Cornucopia", 
+    "image": "images/horsetraders.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 3, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Remake", 
+    "rules": "Do this twice: Trash a card from your hand, then gain a card costing exactly 1 Coin more than the trashed card.", 
+    "expansion": "Cornucopia", 
+    "image": "images/remake.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Tournament", 
+    "rules": "+1 Action\nEach player may reveal a Province from his hand. If you do, discard it and gain a Prize (from the Prize pile) or a Duchy, putting it on top of your deck. If no-one else does, +1 Card +1 Coin.", 
+    "expansion": "Cornucopia", 
+    "image": "images/tournament.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Young Witch", 
+    "rules": "+2 Cards\nDiscard 2 cards. Each other player may reveal a Bane card from his hand.\nIf he doesn\u2019t, he gains a Curse.\nSetup: Add an extra Kingdom card pile costing 2 Coins or 3 Coins to the Supply. Cards from that pile are Bane cards.", 
+    "expansion": "Cornucopia", 
+    "image": "images/youngwitch.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Harvest", 
+    "rules": "Reveal the top 4 cards of your deck, then discard them. +1 Coin per differently named card revealed.", 
+    "expansion": "Cornucopia", 
+    "image": "images/harvest.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Horn of Plenty", 
+    "rules": "0 Coins\nWhen you play this, gain a card costing up to 1 Coin per differently named card you have in play, counting this. If it\u2019s a Victory card, trash this.", 
+    "expansion": "Cornucopia", 
+    "image": "images/hornofplenty.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Hunting Party", 
+    "rules": "+1 Card\n+1 Action\nReveal your hand. Reveal cards from your deck until you reveal a card that isn\u2019t a duplicate of one in your hand. Put it into your hand and discard the rest.", 
+    "expansion": "Cornucopia", 
+    "image": "images/huntingparty.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Jester", 
+    "rules": "+2 Coins\nEach other player discards the top card of his deck. If it\u2019s a Victory card he gains a Curse. Otherwise he gains a copy of the discarded card or you do, your choice.", 
+    "expansion": "Cornucopia", 
+    "image": "images/jester.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Fairgrounds", 
+    "rules": "Worth 2 VP for every 5 differently named cards in your deck (rounded down)", 
+    "expansion": "Cornucopia", 
+    "image": "images/fairgrounds.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Crossroads", 
+    "rules": "Reveal your hand.\n+1 Card per Victory card revealed. If this is the first time you played a Crossroads this turn, +3 Actions.", 
+    "expansion": "Hinterlands", 
+    "image": "images/crossroads.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Duchess", 
+    "rules": "+2 Coins\nEach player (including you) looks at the top card of his deck, and discards it or puts it back.\nIn games using this, when you gain a Duchy, you may gain a Duchess.", 
+    "expansion": "Hinterlands", 
+    "image": "images/duchess.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Fool's Gold", 
+    "rules": "If this is the first time you played a Fool's Gold this turn, this is worth 1 Coin, otherwise it's worth 4 Coins.\nWhen another player gains a Province, you may trash this from your hand. If you do, gain a Gold, putting it on your deck.", 
+    "expansion": "Hinterlands", 
+    "image": "images/foolsgold.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Develop", 
+    "rules": "Trash a card from your hand. Gain a card costing exactly 1 Coin more than it and a card costing exactly 1 less than it, in either order, putting them on top of your deck.", 
+    "expansion": "Hinterlands", 
+    "image": "images/develop.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Oasis", 
+    "rules": "+1 Card\n+1 Action\n+1 Coin\nDiscard a card.", 
+    "expansion": "Hinterlands", 
+    "image": "images/oasis.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Oracle", 
+    "rules": "Each player (including you) reveals the top 2 cards of his deck, and you choose one: either he discards them, or he puts them back on top in an order he chooses.\n+2 Cards", 
+    "expansion": "Hinterlands", 
+    "image": "images/oracle.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Scheme", 
+    "rules": "+1 Card\n+1 Action\nAt the start of Clean-up this turn, you may choose an Action card you have in play. If you discard it from play this turn, put it on your deck.", 
+    "expansion": "Hinterlands", 
+    "image": "images/scheme.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Tunnel", 
+    "rules": "2 VP [large shield]\nWhen you discard this other than during a Clean-up phase, you may reveal it. If you do, gain a Gold.", 
+    "expansion": "Hinterlands", 
+    "image": "images/tunnel.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Victory", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Jack of all Trades", 
+    "rules": "Gain a Silver.\nLook at the top card of your deck; discard it or put it back.\nDraw until you have 5 cards in hand.\nYou may trash a card from your hand that is not a Treasure.", 
+    "expansion": "Hinterlands", 
+    "image": "images/jackofalltrades.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Noble Brigand", 
+    "rules": "+1 Coin\nWhen you buy this or play it, each other player reveals the top 2 cards of his deck, trashes a revealed Silver or Gold you choose, and discards the rest. If he didn't reveal a Treasure, he gains a Copper. You gain the trashed cards.", 
+    "expansion": "Hinterlands", 
+    "image": "images/noblebrigand.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Nomad Camp", 
+    "rules": "+1 Buy\n+2 Coins\nWhen you gain this, put it on top of your deck.", 
+    "expansion": "Hinterlands", 
+    "image": "images/nomadcamp.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Silk Road", 
+    "rules": "Worth 1 VP for every 4 Victory cards in your deck (round down).", 
+    "expansion": "Hinterlands", 
+    "image": "images/silkroad.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Spice Merchant", 
+    "rules": "You may trash a Treasure from your hand. If you do, choose one:\n+2 Cards and +1 Action;\nor +2 Coins and +1 Buy.", 
+    "expansion": "Hinterlands", 
+    "image": "images/spicemerchant.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Trader", 
+    "rules": "Trash a card from your hand. Gain a number of Silvers equal to its cost in Coins.\nWhen you would gain a card, you may reveal this from your hand. If you do, instead, gain a silver.", 
+    "expansion": "Hinterlands", 
+    "image": "images/trader.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Cache", 
+    "rules": "Worth 3 Coins\nWhen you gain this, gain two Coppers.", 
+    "expansion": "Hinterlands", 
+    "image": "images/cache.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Cartographer", 
+    "rules": "+1 Card\n+1 Action\nLook at the top 4 cards of your deck. Discard any number of them. Put the rest back on top in any order.", 
+    "expansion": "Hinterlands", 
+    "image": "images/cartographer.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Embassy", 
+    "rules": "+5 Cards\nDiscard 3 cards.\nWhen you gain this, each other player gains a Silver.", 
+    "expansion": "Hinterlands", 
+    "image": "images/embassy.jpg", 
+    "modifiers": {
+      "cards": 5, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Haggler", 
+    "rules": "+2 Coins\nWhile this is in play, when you buy a card, gain a card costing less than it that is not a Victory card.", 
+    "expansion": "Hinterlands", 
+    "image": "images/haggler.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Highway", 
+    "rules": "+1 Card\n+1 Action\nWhile this is in play, cards cost 1 Coin less, but not less than 0 Coins.", 
+    "expansion": "Hinterlands", 
+    "image": "images/highway.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ill-Gotten Gains", 
+    "rules": "Worth 1 Coin\nWhen you play this, you may gain a Copper, putting it into your hand.\nWhen you gain this, each other player gains a Curse.", 
+    "expansion": "Hinterlands", 
+    "image": "images/illgottengains.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Inn", 
+    "rules": "+2 Cards\n+2 Actions\nDiscard 2 cards.\nWhen you gain this, look through your discard pile (including this), reveal any number of Action cards from it, and shuffle them into your deck.", 
+    "expansion": "Hinterlands", 
+    "image": "images/inn.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mandarin", 
+    "rules": "+3 Coins\nPut a card from your hand on top of your deck.\nWhen you gain this, put all Treasures you have in play on top of your deck in any order.", 
+    "expansion": "Hinterlands", 
+    "image": "images/mandarin.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 3, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Margrave", 
+    "rules": "+3 Cards\n+1 Buy\nEach other player draws a card, then discards down to 3 cards in hand.", 
+    "expansion": "Hinterlands", 
+    "image": "images/margrave.jpg", 
+    "modifiers": {
+      "cards": 3, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Stables", 
+    "rules": "You may discard a Treasure. If you do, +3 Cards and +1 Action.", 
+    "expansion": "Hinterlands", 
+    "image": "images/stables.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Border Village", 
+    "rules": "+1 Card\n+2 Actions\nWhen you gain this, gain a card costing less than this.", 
+    "expansion": "Hinterlands", 
+    "image": "images/bordervillage.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Farmland", 
+    "rules": "2 VP\nWhen you buy this, trash a card from your hand. Gain a card costing exactly 2 Coins more than the trashed card.", 
+    "expansion": "Hinterlands", 
+    "image": "images/farmland.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Abandoned Mine", 
+    "rules": "+1 Coin", 
+    "expansion": "Dark Ages", 
+    "image": "images/abandonedmine.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Madman", 
+    "rules": "+2 Actions\nReturn this to the Madman pile. If you do, +1 Card per card in your hand.\n(This card is not in the supply.)", 
+    "expansion": "Dark Ages", 
+    "image": "images/madman.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mercenary", 
+    "rules": "You may trash 2 cards from your hand. If you do, +2 Cards, +2 Coins, and each other player discards down to 3 cards in hand. \n(This is not in the Supply.)", 
+    "expansion": "Dark Ages", 
+    "image": "images/mercenary.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Ruined Library", 
+    "rules": "+1 Card", 
+    "expansion": "Dark Ages", 
+    "image": "images/ruinedlibrary.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ruined Market", 
+    "rules": "+1 Buy", 
+    "expansion": "Dark Ages", 
+    "image": "images/ruinedmarket.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ruined Village", 
+    "rules": "+1 Action", 
+    "expansion": "Dark Ages", 
+    "image": "images/ruinedvillage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Spoils", 
+    "rules": "3 Coins\nWhen you play this, return it to the Spoils pile.\n(This is not in the Supply.)", 
+    "expansion": "Dark Ages", 
+    "image": "images/spoils.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Survivors", 
+    "rules": "Look at the top 2 cards of your deck. Discard them or put them back in any order.", 
+    "expansion": "Dark Ages", 
+    "image": "images/survivors.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Hovel", 
+    "rules": "When you buy a Victory card, you may trash this from your hand.", 
+    "expansion": "Dark Ages", 
+    "image": "images/hovel.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 1, 
+    "uses_potion": false, 
+    "types": [
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Necropolis", 
+    "rules": "+2 Actions", 
+    "expansion": "Dark Ages", 
+    "image": "images/necropolis.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 1, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Overgrown Estate", 
+    "rules": "0 Victory\nWhen you trash this, +1 Card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/overgrownestate.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 1, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Poor House", 
+    "rules": "+4 Coins\nReveal your hand. -1 Coin per Treasure card in your hand, to a minimum of 0 Coins.", 
+    "expansion": "Dark Ages", 
+    "image": "images/poorhouse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 4, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 1, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Beggar", 
+    "rules": "Gain 3 Coppers, putting them into your hand.\nWhen another player plays an Attack card, you may discard this. If you do, gain two Silvers, putting one on top of your deck.", 
+    "expansion": "Dark Ages", 
+    "image": "images/beggar.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Squire", 
+    "rules": "+1 Coin\nChoose one: +2 Actions; or +2 Buys; or gain a Silver.\nWhen you trash this, gain an Attack card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/squire.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Vagrant", 
+    "rules": "+1 Card, +1 Action\nReveal the top card of your deck. If it's a Curse, Ruins, Shelter, or Victory card, put it into your hand.", 
+    "expansion": "Dark Ages", 
+    "image": "images/vagrant.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Forager", 
+    "rules": "+1 Action, +1 Buy\nTrash a card from your hand. +1 Coin per differently named Treasure in the trash.", 
+    "expansion": "Dark Ages", 
+    "image": "images/forager.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 1
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Hermit", 
+    "rules": "Look through your discard pile. You may trash a card from your discard pile or hand that is not a Treasure. Gain a card costing up to 3 Coins.\nWhen you discard this from play, if you did not buy any cards this turn, trash this and gain a Madman from the Madman pile.", 
+    "expansion": "Dark Ages", 
+    "image": "images/hermit.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Market Square", 
+    "rules": "+1 Card, +1 Action, +1 Buy\nWhen one of your cards is trashed, you may discard this from your hand. If you do, gain a Gold.", 
+    "expansion": "Dark Ages", 
+    "image": "images/marketsquare.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 1
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction"
+    ]
+  }, 
+  {
+    "name": "Sage", 
+    "rules": "+1 Action\nReveal cards from the top of your deck until you reveal one costing 3 Coins or more. Put that card into your hand and discard the rest.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Storeroom", 
+    "rules": "+1 Buy\nDiscard any number of cards. +1 Card per card discarded. Discard any number of cards. +1 Coin per card discarded the second time.", 
+    "expansion": "Dark Ages", 
+    "image": "images/storeroom.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Urchin", 
+    "rules": "+1 Card, +1 Action\nEach other player discards down to 4 cards in hand.\nWhen you play another Attack card with this in play, you may trash this. If you do, gain a mercenary from the Mercenary pile.", 
+    "expansion": "Dark Ages", 
+    "image": "images/urchin.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Armory", 
+    "rules": "Gain a card costing up to 4 Coins, putting it on top of your deck.", 
+    "expansion": "Dark Ages", 
+    "image": "images/armory.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Death Cart", 
+    "rules": "+5 Coins\nYou may trash an Action card from your hand. If you don't, trash this.\nWhen you gain this, gain 2 Ruins.", 
+    "expansion": "Dark Ages", 
+    "image": "images/deathcart.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 5, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Feodum", 
+    "rules": "Worth 1 Victory for every 3 Silvers in your deck (round down).\nWhen you trash this, gain 3 Silvers.", 
+    "expansion": "Dark Ages", 
+    "image": "images/feodum.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Fortress", 
+    "rules": "+1 Card, +2 Actions\nWhen you trash this, put it into your hand.", 
+    "expansion": "Dark Ages", 
+    "image": "images/fortress.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ironmonger", 
+    "rules": "+1 Card, +1 Action\nReveal the top card of your deck; you may discard it. Either way, if it is an\u2026\nAction card, +1 Action\nTreasure card, +1 Coin\nVictory card, +1 Card", 
+    "expansion": "Dark Ages", 
+    "image": "images/ironmonger.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Marauder", 
+    "rules": "Gain a Spoils from the Spoils pile. Each other player gains a Ruins.", 
+    "expansion": "Dark Ages", 
+    "image": "images/marauder.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Procession", 
+    "rules": "You may play an Action card from your hand twice. Trash it. Gain an Action card costing exactly 1 Coin more than it.", 
+    "expansion": "Dark Ages", 
+    "image": "images/procession.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Rats", 
+    "rules": "+1 Card, +1 Action\nGain a Rats. Trash a card from your hand other than a Rats (or reveal a hand of all Rats).\nWhen you tash this, +1 Card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/rats.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Scavenger", 
+    "rules": "+1 Coins\nYou may put your deck into your discard pile. Look through your discard pile and put one card from it on top of your deck.", 
+    "expansion": "Dark Ages", 
+    "image": "images/scavenger.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Sir Martin", 
+    "rules": "+2 Buys\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sirmartin.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 2
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Wandering Minstrel", 
+    "rules": "+1 Card, +2 Actions\nReveal the top 3 cards of your deck. Put the Actions back on top in any order and discard the rest.", 
+    "expansion": "Dark Ages", 
+    "image": "images/wanderingminstrel.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Band of Misfits", 
+    "rules": "Play this as if it were an Action card in the Supply costing less than it that you choose.\nThis is that card until it leaves play.", 
+    "expansion": "Dark Ages", 
+    "image": "images/bandofmisfits.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Bandit Camp", 
+    "rules": "+1 Card, +2 Actions\nGain a Spoils from the Spoils pile.", 
+    "expansion": "Dark Ages", 
+    "image": "images/banditcamp.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Catacombs", 
+    "rules": "Look at the top 3 cards of your deck. Choose one: Put them into your hand; or discard them and +3 Cards.\nWhen you trash this, gain a cheaper card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/catacombs.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Count", 
+    "rules": "Choose one: Discard 2 cards; or put a card from your hand on top of your deck; or gain a Copper.\nChoose one: +3 Coins; or trash your hand; or gain a Duchy.", 
+    "expansion": "Dark Ages", 
+    "image": "images/count.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Counterfeit", 
+    "rules": "1 Coin\n+1 Buy\nWhen you play this, you may play a Treasure from your hand twice. If you do, trash that Treasure.", 
+    "expansion": "Dark Ages", 
+    "image": "images/counterfeit.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Cultist", 
+    "rules": "+2 Cards\nEach other player gains a Ruins. You may play a Cultist from your hand.\nWhen you trash this, +3 Cards.", 
+    "expansion": "Dark Ages", 
+    "image": "images/cultist.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Dame Anna", 
+    "rules": "You may trash up to 2 cards from your hand.\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/dameanna.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Dame Josephine", 
+    "rules": "2 Victory\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/damejosephine.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Victory", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Dame Molly", 
+    "rules": "+2 Actions\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/damemolly.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Dame Natalie", 
+    "rules": "You may gain a card costing up to 3 Coins.\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/damenatalie.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Dame Sylvia", 
+    "rules": "+2 Coins\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/damesylvia.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Graverobber", 
+    "rules": "Choose one: Gain a card from the trash costing from 3 Coins to 6 Coins, putting it on top of your deck; or trash an Action card from your hand and gain a card costing up to 3 Coins more than it.", 
+    "expansion": "Dark Ages", 
+    "image": "images/graverobber.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Junk Dealer", 
+    "rules": "+1 Card, +1 Action, +1 Coin\nTrash a card from your hand.", 
+    "expansion": "Dark Ages", 
+    "image": "images/junkdealer.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Mystic", 
+    "rules": "+1 Action, +2 Coins\nName a card. Reveal the top card of your deck. If it's the named card, put it into your hand.", 
+    "expansion": "Dark Ages", 
+    "image": "images/mystic.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Pillage", 
+    "rules": "Trash this. Each other player with 5 or more cards in hand reveals his hand and discards a card that you choose.\nGain 2 Spoils from the Spoils pile.", 
+    "expansion": "Dark Ages", 
+    "image": "images/pillage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Rebuild", 
+    "rules": "+1 Action\nName a card. Reveal cards from the top of your deck until you reveal a Victory card that is not the named card. Discard the other cards. Trash the Victory card and gain a Victory card costing up to 3 Coins more than it.", 
+    "expansion": "Dark Ages", 
+    "image": "images/rebuild.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Rogue", 
+    "rules": "+2 Coins\nIf there are any cards in the trash costing from 3 Coins to 6 Coins, gain one of them. Otherwise, each other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest.", 
+    "expansion": "Dark Ages", 
+    "image": "images/rogue.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Sir Bailey", 
+    "rules": "+1 Card, +1 Action\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sirbailey.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Sir Destry", 
+    "rules": "+2 Cards\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sirdestry.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Sir Michael", 
+    "rules": "Each other player discards down to 3 cards in hand.\nEach other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sirmichael.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Sir Vander", 
+    "rules": "Each other player reveals the top 2 cards of his deck, trashes one of them costing from 3 Coins to 6 Coins, and discards the rest. If a Knight is trashed by this, trash this card.\nWhen you trash this, gain a Gold.", 
+    "expansion": "Dark Ages", 
+    "image": "images/sirvander.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Altar", 
+    "rules": "Trash a card from your hand. Gain a card costing up to 5 Coins.", 
+    "expansion": "Dark Ages", 
+    "image": "images/altar.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Hunting Grounds", 
+    "rules": "+4 Cards\nWhen you trash this, gain a Duchy or 3 Estates.", 
+    "expansion": "Dark Ages", 
+    "image": "images/huntinggrounds.jpg", 
+    "modifiers": {
+      "cards": 4, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Candlestick Maker", 
+    "rules": "+1 Action, +1 Buy\n Take a Coin token.", 
+    "expansion": "Guilds", 
+    "image": "images/candlestickmaker.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 1
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Stonemason", 
+    "rules": "Trash a card from your hand. Gain 2 cards each costing less than it.\nWhen you buy this, you may overpay for it.\nIf you do, gain 2 Action cards each costing the amount you overpaid.", 
+    "expansion": "Guilds", 
+    "image": "images/stonemason.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Doctor", 
+    "rules": "Name a card. Reveal the top 3 cards of your deck. Trash the matches. Put the rest back on top in any order.\nWhen you buy this, you may overpay for it. For each 1 Coin you overpaid, look at the top card of your deck; trash it, discard it, or put it back.", 
+    "expansion": "Guilds", 
+    "image": "images/doctor.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Masterpiece", 
+    "rules": "1 Coin\nWhen you buy this, you may overpay for it. If you do, gain a Silver per 1 Coin you overpaid.", 
+    "expansion": "Guilds", 
+    "image": "images/masterpiece.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Advisor", 
+    "rules": "+1 Action\nReveal the top 3 cards of your deck. The player to your left chooses one of them. Discard that card. Put the other cards into your hand.", 
+    "expansion": "Guilds", 
+    "image": "images/advisor.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Herald", 
+    "rules": "+1 Card\n+1 Action\nReveal the top card of your deck. If it is an Action, play it.\nWhen you buy this, you may overpay for it. For each 1 Coin you overpaid, look through your discard pile and put a card from it on top of your deck.", 
+    "expansion": "Guilds", 
+    "image": "images/herald.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Plaza", 
+    "rules": "+1 Card\n+2 Actions\nYou may discard a Treasure card. If you do, take a Coin token.", 
+    "expansion": "Guilds", 
+    "image": "images/plaza.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Taxman", 
+    "rules": "You may trash a Treasure from your hand. Each other player with 5 or more cards in hand discards a copy of it (or reveals a hand without it). Gain a Treasure card costing up to 3 Coins more than the trashed card, putting it on top of your deck.", 
+    "expansion": "Guilds", 
+    "image": "images/taxman.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Baker", 
+    "rules": "+1 Card\n+1 Action\nTake a Coin token.\nSetup: Each player takes a Coin token.", 
+    "expansion": "Guilds", 
+    "image": "images/baker.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Butcher", 
+    "rules": "Take 2 Coin tokens. You may trash a card from your hand and then pay any number of Coin tokens. If you did trash a card, gain a card with a cost of up to the cost of the trashed card plus the number of Coin tokens you paid.", 
+    "expansion": "Guilds", 
+    "image": "images/butcher.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Journeyman", 
+    "rules": "Name a card. Reveal cards from the top of your deck until you reveal 3 cards that are not the named card. Put those cards into your hand and discard the rest.", 
+    "expansion": "Guilds", 
+    "image": "images/journeyman.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Merchant Guild", 
+    "rules": "+1 Buy\n+1 Coin\nWhile this is in play, when you buy a card, take a Coin token.", 
+    "expansion": "Guilds", 
+    "image": "images/merchantguild.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Soothsayer", 
+    "rules": "Gain a gold. Each other player gains a Curse. Each player who did draws a card.", 
+    "expansion": "Guilds", 
+    "image": "images/soothsayer.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Coin of the Realm", 
+    "rules": "1 Coin\nWhen you play this, put it on your Tavern mat.\nDirectly after resolving an Action, you may call this, for +2 Actions.", 
+    "expansion": "Adventures", 
+    "image": "images/coinoftherealm.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Page", 
+    "rules": "+1 Card\n+1 Action\nWhen you discard this from play, you may exchange it for a Treasure Hunter.", 
+    "expansion": "Adventures", 
+    "image": "images/page.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Peasant", 
+    "rules": "+1 Buy\n+1 Coin\nWhen you discard this from play, you may exchange it for a Soldier.", 
+    "expansion": "Adventures", 
+    "image": "images/peasant.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ratcatcher", 
+    "rules": "+1 Card\n+1 Action\nPut this on your Tavern mat.\nAt the start of your turn, you may call this, to trash a card from your hand.", 
+    "expansion": "Adventures", 
+    "image": "images/ratcatcher.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Raze", 
+    "rules": "+1 Action\nTrash this or a card from your hand. Look at a number of cards from the top of your deck equal to the cost in Coins of the trashed card. Put one into your hand and discard the rest.", 
+    "expansion": "Adventures", 
+    "image": "images/raze.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Amulet", 
+    "rules": "Now and at the start of your next turn, choose one: +1 Coin; or trash a card from your hand; or gain a Silver.", 
+    "expansion": "Adventures", 
+    "image": "images/amulet.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Caravan Guard", 
+    "rules": "+1 Card\n+1 Action\nAt the start of your next turn, +1 Coin.\nWhen another player plays an Attack card, you may play this from your hand. \n(+1 Action has no effect if it's not your turn.)", 
+    "expansion": "Adventures", 
+    "image": "images/caravanguard.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reaction", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Dungeon", 
+    "rules": "+1 Action\nNow and at the start of your next turn: +2 Cards, then discard 2 cards.", 
+    "expansion": "Adventures", 
+    "image": "images/dungeon.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Gear", 
+    "rules": "+2 Cards\nSet aside up to 2 cards from your hand face down. At the start of your next turn, put them into your hand.", 
+    "expansion": "Adventures", 
+    "image": "images/gear.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Guide", 
+    "rules": "+1 Card\n+1 Action\nPut this on your Tavern mat.\nAt the start of your turn, you may call this, to discard your hand and draw 5 cards.", 
+    "expansion": "Adventures", 
+    "image": "images/guide.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Duplicate", 
+    "rules": "Put this on your Tavern mat.\nWhen you gain a card costing up to 6 Coins, you may call this, to gain a copy of that card.", 
+    "expansion": "Adventures", 
+    "image": "images/duplicate.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Magpie", 
+    "rules": "+1 Card\n+1 Action\nReveal the top card of your deck. If it's a Treasure, put it into your hand. If it's an Action or Victory card, gain a Magpie.", 
+    "expansion": "Adventures", 
+    "image": "images/magpie.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Messenger", 
+    "rules": "+1 Buy\n+2 Coins\nYou may put your deck into your discard pile.\nWhen this is your first buy in a turn, gain a card costing up to 4 Coins, and each other player gains a copy of it.", 
+    "expansion": "Adventures", 
+    "image": "images/messenger.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Miser", 
+    "rules": "Choose one: Put a Copper from your hand onto your Tavern mat; or +1 Coin per Copper on your Tavern mat.", 
+    "expansion": "Adventures", 
+    "image": "images/miser.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Port", 
+    "rules": "+1 Card\n+2 Actions\nWhen you buy this, gain another Port.", 
+    "expansion": "Adventures", 
+    "image": "images/port.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Ranger", 
+    "rules": "+1 Buy\nTurn your Journey token over (it starts face up). If it's face up, +5 Cards.", 
+    "expansion": "Adventures", 
+    "image": "images/ranger.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Transmogrify", 
+    "rules": "+1 Action\nPut this on your Tavern mat.\nAt the start of your turn, you may call this, to trash a card from your hand, gain a card costing up to 1 Coin more than it, and put that card into your hand.", 
+    "expansion": "Adventures", 
+    "image": "images/transmogrify.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Artificer", 
+    "rules": "+1 Card\n+1 Action\n+1 Coin\nDiscard any number of cards. You may gain a card costing exactly 1 Coin per card discarded, putting it on top of your deck.", 
+    "expansion": "Adventures", 
+    "image": "images/artificer.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Bridge Troll", 
+    "rules": "Each other player takes his -1 Coin token. Now and at the start of your next turn:\n+1 Buy\nWhile this is in play, cards cost 1 Coin less on your turns, but not less than 0 Coins.", 
+    "expansion": "Adventures", 
+    "image": "images/bridgetroll.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Distant Lands", 
+    "rules": "Put this on your Tavern mat.\nWorth 4 Victory if on your Tavern mat at the end of the game (otherwise worth 0 Victory).", 
+    "expansion": "Adventures", 
+    "image": "images/distantlands.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Victory", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Giant", 
+    "rules": "Turn your Journey token over (it starts face up). If it's face down, +1 Coin. If it's face up, +5 Coins, and each other player reveals the top card of his deck, trashes it if it costs from 3 Coins to 6 Coins, and otherwise discards it and gains a Curse.", 
+    "expansion": "Adventures", 
+    "image": "images/giant.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Haunted Woods", 
+    "rules": "Until your next turn, when any other player buys a card, he puts his hand on top of his deck in any order.\nAt the start of your next turn:\n+3 Cards", 
+    "expansion": "Adventures", 
+    "image": "images/hauntedwoods.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Lost City", 
+    "rules": "+2 Cards\n+2 Actions\nWhen you gain this, each other player draws a card.", 
+    "expansion": "Adventures", 
+    "image": "images/lostcity.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Relic", 
+    "rules": "2 Coins\nWhen you play this, each other player puts his -1 Card token on his deck.", 
+    "expansion": "Adventures", 
+    "image": "images/relic.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Royal Carriage", 
+    "rules": "+1 Action\nPut this on your Tavern mat.\nDirectly after resolving an Action, if it's still in play, you may call this, to replay that Action.", 
+    "expansion": "Adventures", 
+    "image": "images/royalcarriage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Storyteller", 
+    "rules": "+1 Action\n+1 Coin\nPlay up to 3 Treasures from your hand. Pay all of your Coins; +1 Card per Coin paid.", 
+    "expansion": "Adventures", 
+    "image": "images/storyteller.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Swamp Hag", 
+    "rules": "Until your next turn, when any other player buys a card, he gains a Curse.\nAt the start of your next turn:\n+3 Coins", 
+    "expansion": "Adventures", 
+    "image": "images/swamphag.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Treasure Trove", 
+    "rules": "2 Coins\nWhen you play this, gain a Gold and a Copper.", 
+    "expansion": "Adventures", 
+    "image": "images/treasuretrove.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Wine Merchant", 
+    "rules": "+1 Buy\n+4 Coins\nPut this on your Tavern mat.\nAt the end of your Buy phase, if you have at least 2 Coins unspent, you may discard this from your Tavern mat.", 
+    "expansion": "Adventures", 
+    "image": "images/winemerchant.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 4, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Hireling", 
+    "rules": "At the start of each of your turns for the rest of the game:\n+1 Card\n(This stays in play.)", 
+    "expansion": "Adventures", 
+    "image": "images/hireling.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Soldier", 
+    "rules": "+2 Coins\n+1 Coin per other Attack you have in play. Each other player with 4 or more cards in hand discards a card.\nWhen you discard this from play, you may exchange it for a Fugitive.\nThis is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/soldier.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Fugitive", 
+    "rules": "+2 Cards\n+1Action\nDiscard a card.\nWhen you discard this from play, you may exchange it for a Disciple.\n(This card is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/fugitive.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Disciple", 
+    "rules": "You may play an Action card from your hand twice. Gain a copy of it.\nWhen you discard this from play, you may exchange it for a Teacher.\n(This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/disciple.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Teacher", 
+    "rules": "Put this on your Tavern mat.\nAt the start of your turn, you may call this, to move your +1 Card, +1 Action, +1 Buy, or +1 Coin token to an Action Supply pile you have no tokens on (when you play a card from that pile, you first get that bonus).\n(This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/teacher.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Reserve"
+    ]
+  }, 
+  {
+    "name": "Treasure Hunter", 
+    "rules": "+1 Action\n+1 Coin\nGain a Silver per card the player to your right gained in his last turn.\nWhen you discard this from play, you may exchange it for a Warrior.\n(This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/treasurehunter.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 1, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Warrior", 
+    "rules": "+2 Cards\nFor each Traveller you have in play (including this), each other player discards the top card of his deck and trashes it if it costs 3 Coins or 4 Coins.\nWhen you discard this from play, you may exchange it for a Hero.\n(This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/warrior.jpg", 
+    "modifiers": {
+      "cards": 2, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Attack"
+    ]
+  }, 
+  {
+    "name": "Hero", 
+    "rules": "+2 Coins\nGain a Treasure.\nWhen you discard this from play, you may exchange it for a Champion.\n(This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/hero.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Champion", 
+    "rules": "+1 Action\nFor the rest of the game, when another player plays an Attack, it doesn't affect you, and when you play an Action, +1 Action.\n(This stays in play. This is not in the Supply.)", 
+    "expansion": "Adventures", 
+    "image": "images/champion.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Action", 
+      "Duration"
+    ]
+  }, 
+  {
+    "name": "Alms", 
+    "rules": "Once per turn: If you have no Treasures in play, gain a card costing up to 4 Coins.", 
+    "expansion": "Adventures", 
+    "image": "images/alms.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Borrow", 
+    "rules": "+1 Buy\nOnce per turn: If your -1 Card token isn't on your deck, put it there and +1 Coin.", 
+    "expansion": "Adventures", 
+    "image": "images/borrow.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Quest", 
+    "rules": "You may discard an Attack, two Curses, or six cards. If you do, gain a Gold.", 
+    "expansion": "Adventures", 
+    "image": "images/quest.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Save", 
+    "rules": "+1 Buy\nOnce per turn: Set aside a card from your hand, and put it into your hand at end of turn (after drawing).", 
+    "expansion": "Adventures", 
+    "image": "images/save.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 1, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Scouting Party", 
+    "rules": "+1 Buy\nLook at the top 5 cards of your deck. Discard 3 of them and put the rest back in any order.", 
+    "expansion": "Adventures", 
+    "image": "images/scoutingparty.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 1
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Travelling Fair", 
+    "rules": "+2 Buys\nWhen you gain a card this turn, you may put it on top of your deck.", 
+    "expansion": "Adventures", 
+    "image": "images/travellingfair.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 2
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Bonfire", 
+    "rules": "Trash up to 2 cards you have in play.", 
+    "expansion": "Adventures", 
+    "image": "images/bonfire.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Expedition", 
+    "rules": "Draw 2 extra cards for your next hand.", 
+    "expansion": "Adventures", 
+    "image": "images/expedition.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Ferry", 
+    "rules": "Move your -2 Coins cost token to an Action Supply pile (cards from that pile cost 2 Coins less on your turns, but  not less than 0 Coins).", 
+    "expansion": "Adventures", 
+    "image": "images/ferry.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Plan", 
+    "rules": "Move your Trashing token to an Action supply pile (when you buy a card from that pile, you may trash a card from your hand.)", 
+    "expansion": "Adventures", 
+    "image": "images/plan.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Mission", 
+    "rules": "Once per turn: If the previous turn wasn't yours, take another turn after this one, in which you can't buy cards.", 
+    "expansion": "Adventures", 
+    "image": "images/mission.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Pilgrimage", 
+    "rules": "Once per turn: Turn your Journey token over (it starts face up); then if it's face up, choose up to 3 differently named cards you have in play and gain a copy of each.", 
+    "expansion": "Adventures", 
+    "image": "images/pilgrimage.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Ball", 
+    "rules": "Take your -1 Coin token. Gain 2 cards each costing up to 4 Coins.", 
+    "expansion": "Adventures", 
+    "image": "images/ball.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Raid", 
+    "rules": "Gain a Silver per Silver you have in play. Each other player puts his -1 Card token on his deck.", 
+    "expansion": "Adventures", 
+    "image": "images/raid.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Seaway", 
+    "rules": "Gain an Action card costing up to 4 Coins. Move your +1 Buy token to its pile (when you play a card from that pile, you first get +1 Buy).", 
+    "expansion": "Adventures", 
+    "image": "images/seaway.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Trade", 
+    "rules": "Trash up to 2 cards from your hand. Gain a Silver per card you trashed.", 
+    "expansion": "Adventures", 
+    "image": "images/trade.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Lost Arts", 
+    "rules": "Move your +1 Action token to an Action Supply pile (when you play a card from that pile, you first get +1 Action).", 
+    "expansion": "Adventures", 
+    "image": "images/lostarts.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Training", 
+    "rules": "Move your +1 Coin token to an Action Supply pile (when you play a card from that pile, you first get +1 Coin).", 
+    "expansion": "Adventures", 
+    "image": "images/training.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Inheritance", 
+    "rules": "Once per game: Set aside a non-Victory Action card from the Supply costing up to 4 Coins. Move your Estate token to it (your Estates gain the abilities and types of that card).", 
+    "expansion": "Adventures", 
+    "image": "images/inheritance.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 7, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Pathfinding", 
+    "rules": "Move your +1 Card token to an Action Supply pile (when you play a card from that pile, you first get +1 Card).", 
+    "expansion": "Adventures", 
+    "image": "images/pathfinding.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 8, 
+    "uses_potion": false, 
+    "types": [
+      "Event"
+    ]
+  }, 
+  {
+    "name": "Black Market", 
+    "rules": "+2 Coins, Reveal the top 3 cards of the Black Market deck. You may buy one of them immediately. Put the unbought cards on the bottom of the Black Market deck in any order. \n(Before the game, make a Black Market deck out of one copy of each Kingdom card not in the supply.)\n.", 
+    "expansion": "Promo", 
+    "image": "images/blackmarket.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 2, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Envoy", 
+    "rules": "Reveal the top 5 cards of your deck. The player to your left chooses one for you to discard. Draw the rest.", 
+    "expansion": "Promo", 
+    "image": "images/envoy.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Walled Village", 
+    "rules": "+1 Card\n+2 Actions\nAt the start of Clean-up, if you have this and no more than one other Action card in play, you may put this on top of your deck.", 
+    "expansion": "Promo", 
+    "image": "images/walledvillage.jpg", 
+    "modifiers": {
+      "cards": 1, 
+      "coins": 0, 
+      "actions": 2, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Governor", 
+    "rules": "+1 Action\nChoose one; you get the version in parentheses: Each player gets +1 (+3) Cards; or each player gains a Silver (Gold); or each player may trash a card from his hand and gain a card costing exactly 1 Coin (2 Coins) more.", 
+    "expansion": "Promo", 
+    "image": "images/governor.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 1, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Stash", 
+    "rules": "Worth 2 Coins. When you shuffle, you may put this anywhere in your deck.", 
+    "expansion": "Promo", 
+    "image": "images/stash.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Prince", 
+    "rules": "You may set this aside. If you do, set aside an Action card from your hand costing up to 4 coins. At the start of each of your turns, play that Action, setting it aside again when you discard it from play. (Stop playing it if you fail to set it aside on a turn you play it.)", 
+    "expansion": "Promo", 
+    "image": "images/prince.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 8, 
+    "uses_potion": false, 
+    "types": [
+      "Action"
+    ]
+  }, 
+  {
+    "name": "Copper", 
+    "rules": "1 Coin", 
+    "expansion": "Base Cards", 
+    "image": "images/copper.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Curse", 
+    "rules": "-1 Victory", 
+    "expansion": "Base Cards", 
+    "image": "images/curse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Curse"
+    ]
+  }, 
+  {
+    "name": "Estate", 
+    "rules": "1 Victory", 
+    "expansion": "Base Cards", 
+    "image": "images/estate.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Silver", 
+    "rules": "2 Coins", 
+    "expansion": "Base Cards", 
+    "image": "images/silver.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Potion", 
+    "rules": "1 Potion", 
+    "expansion": "Base Cards", 
+    "image": "images/potion.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 4, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Duchy", 
+    "rules": "3 Victory", 
+    "expansion": "Base Cards", 
+    "image": "images/duchy.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Gold", 
+    "rules": "3 Coins", 
+    "expansion": "Base Cards", 
+    "image": "images/gold.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Province", 
+    "rules": "6 Victory", 
+    "expansion": "Base Cards", 
+    "image": "images/province.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 8, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Platinum", 
+    "rules": "5 Coins", 
+    "expansion": "Base Cards", 
+    "image": "images/platinum.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 9, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Colony", 
+    "rules": "10 Victory", 
+    "expansion": "Base Cards", 
+    "image": "images/colony.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 11, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Copper", 
+    "rules": "1 Coin.", 
+    "expansion": "Common", 
+    "image": "images/copper.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Curse", 
+    "rules": "-1 Victory.", 
+    "expansion": "Common", 
+    "image": "images/curse.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 0, 
+    "uses_potion": false, 
+    "types": [
+      "Curse"
+    ]
+  }, 
+  {
+    "name": "Estate", 
+    "rules": "1 Victory.", 
+    "expansion": "Common", 
+    "image": "images/estate.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 2, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Silver", 
+    "rules": "2 Coins.", 
+    "expansion": "Common", 
+    "image": "images/silver.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 3, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Duchy", 
+    "rules": "3 Victory.", 
+    "expansion": "Common", 
+    "image": "images/duchy.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 5, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }, 
+  {
+    "name": "Gold", 
+    "rules": "3 Coins.", 
+    "expansion": "Common", 
+    "image": "images/gold.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 6, 
+    "uses_potion": false, 
+    "types": [
+      "Treasure"
+    ]
+  }, 
+  {
+    "name": "Province", 
+    "rules": "6 Victory.", 
+    "expansion": "Common", 
+    "image": "images/province.jpg", 
+    "modifiers": {
+      "cards": 0, 
+      "coins": 0, 
+      "actions": 0, 
+      "buys": 0
+    }, 
+    "cost": 8, 
+    "uses_potion": false, 
+    "types": [
+      "Victory"
+    ]
+  }
+]

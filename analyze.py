@@ -82,3 +82,20 @@ def parseTypes(type_text):
     types = ["Action", "Victory", "Treasure", "Curse",
              "Attack", "Reaction", "Duration", "Reserve", "Event"]
     return filter(lambda t: t in type_text, types)
+
+
+def annotate(cards):
+    """Add richer information to each card's dictionary.
+
+    This adds information about the card's bonuses, cost, and types.
+    """
+    for card in cards:
+        card['modifiers'] = parseModifiers(card['rules'])
+        
+        cost_dict = parseCost(card['cost'])
+        del card['cost']
+        card['cost'] = cost_dict['coins']
+        card['uses_potion'] = cost_dict['uses_potion']
+        
+        card['types'] = parseTypes(card['type'])
+        del card['type']
